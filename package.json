@@ -1,0 +1,21 @@
+{
+  "name": "discord-avatar-api",
+  "version": "1.0.0",
+  "description": "API to change Discord server avatar",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "discord.js": "^14.0.3",
+    "dotenv": "^16.0.3",
+    "next": "^13.4.2"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": "18.x"
+  },
+  "license": "MIT"
+}
