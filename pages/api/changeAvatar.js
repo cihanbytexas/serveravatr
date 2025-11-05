@@ -1,4 +1,4 @@
-// pages/
+// pages/api/changeAvatar.js
 
 import { Client, Intents } from 'discord.js';
 
@@ -32,6 +32,7 @@ export default async function handler(req, res) {
       return res.status(500).json({ error: 'Avatar güncellenirken bir hata oluştu.' });
     }
   } else {
+    // Diğer HTTP metodları için hata
     return res.status(405).json({ error: 'Yalnızca POST yöntemi destekleniyor.' });
   }
-}}
+}
